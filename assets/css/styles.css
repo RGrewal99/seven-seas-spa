@@ -1,5 +1,5 @@
 /* Apply the Handlee font to all headings */
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Handlee', cursive;
 }
 
@@ -78,13 +78,7 @@ main {
 /* Set the size of the testimonial images */
 .testimonial-image {
     width: 100px;
-    height: 100px;
-}
-
-.testimonial-image {
-    width: 100px; /* Adjust the width */
-    height: 100px; /* Adjust the height */
-    object-fit: cover; /* Ensure the image fits within the dimensions */
+    height: 100x;
 }
 
 /* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
